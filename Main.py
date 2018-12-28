@@ -1,6 +1,17 @@
-print ('This is new')
-print ('I hope this works better than last time')
-print('Editing this to see how long it takes')
-print('Testing this again')
-print('This is a git test')
-print('Why is this not working FINAL')
+
+#Test to see if this works right
+
+cidrDict = {
+	'24':'255.255.255.0',
+	'16':'255.255.0.0',
+	'8':'255.0.0.0'
+}
+x = 0
+ipAddr = input('What is the ip address?')
+while x == 0:
+	cidr = input('What is the CIDR?')
+	if cidr in cidrDict:
+		print('Your CIDR has been found, continuing...')
+		x += 1
+	else:
+		print('----------\nCIDR not found, try again\n----------')
