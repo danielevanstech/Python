@@ -1,7 +1,6 @@
-print ('This is new')
-print ('I hope this works better than last time')
-print('Editing this to see how long it takes')
-print('Testing this again')
-print('This is a git test')
-print('Why is this not working FINAL')
-print('Testing this again with iPhone')
+file = open('Test.txt')
+while True:
+    char = file.read(1)
+    if not char: break
+    print(char)
+for char in (open('Test.txt').read()): print(char)
