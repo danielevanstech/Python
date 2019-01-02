@@ -1,4 +1,3 @@
-
 #Test to see if this works right
 
 cidrDict = {
