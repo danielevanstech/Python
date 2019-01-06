@@ -1,5 +1,2 @@
-f = open('Main.py')
-for line in f:
-    findMe = 'cidrDict'
-    x = line.__contains__(findMe)
-    print(x,'found in this line',line)
+import os
+x = [line for line in open('Main.py') if line.__contains__('cidrDict') == True]
