@@ -1,2 +1,5 @@
-import os
-x = [line for line in open('Main.py') if line.__contains__('cidrDict') == True]
+def times(x,y):
+    return x*y
+def add(x,y):
+    return x+y
+calc = {'a':times,'b':add}
