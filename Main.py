@@ -1,5 +1,5 @@
 #Test to see if this works right
-
+test = 'test'
 cidrDict = {
 	'24':'255.255.255.0',
 	'16':'255.255.0.0',
