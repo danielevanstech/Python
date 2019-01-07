@@ -1,5 +1,8 @@
-def times(x,y):
-    return x*y
-def add(x,y):
-    return x+y
-calc = {'a':times,'b':add}
+def intersect(seq1,seq2):
+    res = []
+    for x in seq1:
+        if x in seq2:
+            res.append(x)
+    return res
+
+[x for x in seq1 if x in seq2]
