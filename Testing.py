@@ -1,8 +1,7 @@
-def intersect(seq1,seq2):
-    res = []
-    for x in seq1:
-        if x in seq2:
-            res.append(x)
-    return res
-
-[x for x in seq1 if x in seq2]
+def multiple(x,y):
+    x = 2
+    y = ['spam','list']
+    return x,y
+x = 1
+y = 2
+multiple(x,y)
